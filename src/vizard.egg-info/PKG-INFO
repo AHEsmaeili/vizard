@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: vizard
+Version: 0.1.0
+Summary: Matplotlib panels for neuroimaging and model-inference figures: rainclouds, ridges, connectome matrices, radial connectivity, regression and effect-size plots
+Author-email: Amirhossein Esmaeili <amirhossein.esmaeili@univ-amu.fr>
+Project-URL: Homepage, https://github.com/AHEsmaeili/vizard
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: xarray
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: matplotlib-scalebar
+Requires-Dist: seaborn
+Requires-Dist: ptitprince
+Requires-Dist: statannotations
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"

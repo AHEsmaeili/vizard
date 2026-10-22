@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vizard"
+version = "0.1.0"
+description = "Matplotlib panels for neuroimaging and model-inference figures"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [
+    { name = "Amirhossein Esmaeili", email = "amirhossein.esmaeili@univ-amu.fr" },
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "xarray",
+    "scipy",
+    "matplotlib",
+    "matplotlib-scalebar",
+    "seaborn>=0.13",
+    "statannotations",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/AHEsmaeili/vizard"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 100
+skip-string-normalization = true
+skip-magic-trailing-comma = true
+target-version = ["py310"]

@@ -1,0 +1,13 @@
+pyproject.toml
+src/vizard/annotate.py
+src/vizard/distributions.py
+src/vizard/effects.py
+src/vizard/matrices.py
+src/vizard/radial.py
+src/vizard/regression.py
+src/vizard/style.py
+src/vizard.egg-info/PKG-INFO
+src/vizard.egg-info/SOURCES.txt
+src/vizard.egg-info/dependency_links.txt
+src/vizard.egg-info/requires.txt
+src/vizard.egg-info/top_level.txt

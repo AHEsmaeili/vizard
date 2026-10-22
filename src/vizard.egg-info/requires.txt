@@ -1,0 +1,12 @@
+numpy
+pandas
+xarray
+scipy
+matplotlib
+matplotlib-scalebar
+seaborn
+ptitprince
+statannotations
+
+[dev]
+pytest
